@@ -1,6 +1,7 @@
 {
   "private": true,
   "author": "",
+  "homepage": "https://daitong2333.github.io/demo",
   "scripts": {
     "dev": "max dev",
     "build": "max build",
@@ -8,7 +9,8 @@
     "prepare": "husky",
     "postinstall": "max setup",
     "setup": "max setup",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
@@ -19,6 +21,7 @@
   "devDependencies": {
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
+    "gh-pages": "^6.3.0",
     "husky": "^9",
     "lint-staged": "^13.2.0",
     "prettier": "^2.8.7",
